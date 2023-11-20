@@ -1,28 +1,38 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * @argc: Number of command-line arguments
- * @argv: Array of command-line arguments
- *
- * Return: 0 on success, 1 on failure
+ * task_3 - multiplies two numbers
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0 on success, 1 on error
  */
-int main(int argc, char *argv[])
+int task_3(int argc, char *argv[])
 {
-    int num1, num2, result;
+    if (argc == 3)
+    {
+        int num1 = atoi(argv[1]);
+        int num2 = atoi(argv[2]);
 
-    if (argc != 3)
+        printf("%d\n", num1 * num2);
+        return 0;
+    }
+    else
     {
         printf("Error\n");
         return 1;
     }
+}
 
-    num1 = atoi(argv[1]);
-    num2 = atoi(argv[2]);
-    result = num1 * num2;
-
-    printf("%d\n", result);
-
-    return 0;
+/**
+ * main - entry point
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0 on success
+ */
+int main(int argc, char *argv[])
+{
+    /* Call the task-specific function */
+    return task_3(argc, argv);
 }
