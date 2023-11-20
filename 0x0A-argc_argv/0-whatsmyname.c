@@ -5,15 +5,13 @@
  * @argc: Number of command-line arguments
  * @argv: Array of command-line arguments
  *
- * Return: 0 on success, 1 on failure
+ * Return: 0 on success
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-	{
-		printf("%s\n", argv[0]);
-		return (0);
-	}
+    (void)argc; /* Unused parameter (argc) */
+    
+    printf("%s\n", argv[0]);
 
-	return (1);
+    return 0;
 }
