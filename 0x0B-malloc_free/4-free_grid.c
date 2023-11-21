@@ -2,11 +2,9 @@
 #include <stdlib.h>
 
 /**
- * free_grid - frees a 2 dimensional grid
- * @grid: the grid to free
+ * free_grid - frees a 2 dimensional grid previously created by alloc_grid function.
+ * @grid: 2D array to free
  * @height: height of the grid
- *
- * Return: Nothing
  */
 void free_grid(int **grid, int height)
 {
@@ -15,10 +13,8 @@ void free_grid(int **grid, int height)
     if (grid == NULL || height <= 0)
         return;
 
-    /* Free the memory allocated for each row */
     for (i = 0; i < height; i++)
         free(grid[i]);
 
-    /* Free the memory allocated for the rows */
     free(grid);
 }
