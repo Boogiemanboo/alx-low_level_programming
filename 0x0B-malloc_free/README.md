@@ -1,4 +1,4 @@
-Task 0: Float like a butterfly, sting like a bee
+***Task 0: Float like a butterfly, sting like a bee
 
     File: 0-create_array.c
     Description:
@@ -6,7 +6,7 @@ Task 0: Float like a butterfly, sting like a bee
         Takes the size of the array and a specific character as parameters.
         Returns a pointer to the newly created array.
 
-Task 1: The woman who has no imagination has no wings
+***Task 1: The woman who has no imagination has no wings
 
     File: 1-strdup.c
     Description:
@@ -14,7 +14,7 @@ Task 1: The woman who has no imagination has no wings
         Allocates memory using malloc for the new string.
         Returns a pointer to the duplicated string or NULL on failure.
 
-Task 2: He who is not courageous enough to take risks will accomplish nothing in life
+***Task 2: He who is not courageous enough to take risks will accomplish nothing in life
 
     File: 2-str_concat.c
     Description:
@@ -22,7 +22,7 @@ Task 2: He who is not courageous enough to take risks will accomplish nothing in
         Allocates memory for the new concatenated string.
         Returns a pointer to the new string or NULL on failure.
 
-Task 3: If you even dream of beating me you'd better wake up and apologize
+***Task 3: If you even dream of beating me you'd better wake up and apologize
 
     File: 3-alloc_grid.c
     Description:
@@ -30,13 +30,13 @@ Task 3: If you even dream of beating me you'd better wake up and apologize
         Initializes each element to 0.
         Returns NULL on failure or if width/height is 0 or negative.
 
-Task 4: It's not bragging if you can back it up
+***Task 4: It's not bragging if you can back it up
 
     File: 4-free_grid.c
     Description:
         Implements a function free_grid that frees the memory of a 2D grid previously created by alloc_grid.
 
-Task 5: It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
+***Task 5: It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
 
     File: 100-argstostr.c
     Description:
@@ -44,7 +44,7 @@ Task 5: It isn't the mountains ahead to climb that wear you out; it's the pebble
         Returns a pointer to the new string, each argument followed by a newline.
         Returns NULL on failure or if argument count is 0.
 
-Task 6: I will show you how great I am
+***Task 6: I will show you how great I am
 
     File: 101-strtow.c
     Description:
